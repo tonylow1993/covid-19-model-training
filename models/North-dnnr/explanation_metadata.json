@@ -1,0 +1,645 @@
+{
+  "outputs": {
+    "predictions": {
+      "output_tensor_name": "add:0"
+    }
+  },
+  "inputs": {
+    "Central_Western_past14": {
+      "input_tensor_name": "dnn/input_from_feature_columns/input_layer/Central_Western_past14/Cast:0",
+      "encoding": "identity",
+      "modality": "numeric"
+    },
+    "Confirmed_case_past14": {
+      "input_tensor_name": "dnn/input_from_feature_columns/input_layer/Confirmed_case_past14/Cast:0",
+      "encoding": "identity",
+      "modality": "numeric"
+    },
+    "Eastern_past14": {
+      "input_tensor_name": "dnn/input_from_feature_columns/input_layer/Eastern_past14/Cast:0",
+      "encoding": "identity",
+      "modality": "numeric"
+    },
+    "Islands_past14": {
+      "input_tensor_name": "dnn/input_from_feature_columns/input_layer/Islands_past14/Cast:0",
+      "encoding": "identity",
+      "modality": "numeric"
+    },
+    "Kowloon_City_past14": {
+      "input_tensor_name": "dnn/input_from_feature_columns/input_layer/Kowloon_City_past14/Cast:0",
+      "encoding": "identity",
+      "modality": "numeric"
+    },
+    "Kwai_Tsing_past14": {
+      "input_tensor_name": "dnn/input_from_feature_columns/input_layer/Kwai_Tsing_past14/Cast:0",
+      "encoding": "identity",
+      "modality": "numeric"
+    },
+    "Kwun_Tong_past14": {
+      "input_tensor_name": "dnn/input_from_feature_columns/input_layer/Kwun_Tong_past14/Cast:0",
+      "encoding": "identity",
+      "modality": "numeric"
+    },
+    "Measure_1_4_dnn": {
+      "input_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_1_4_indicator/to_sparse_input/values:0",
+      "encoding": "combined_embedding",
+      "modality": "numeric",
+      "indices_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_1_4_indicator/to_sparse_input/indices:0",
+      "dense_shape_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_1_4_indicator/to_sparse_input/dense_shape:0",
+      "encoded_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_1_4_indicator/Sum:0",
+      "group_name": "Measure_1_4"
+    },
+    "Measure_1_4_linear": {
+      "input_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_1_4_indicator/to_sparse_input/values:0",
+      "encoding": "combined_embedding",
+      "modality": "numeric",
+      "indices_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_1_4_indicator/to_sparse_input/indices:0",
+      "dense_shape_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_1_4_indicator/to_sparse_input/dense_shape:0",
+      "encoded_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_1_4_indicator/Sum:0",
+      "group_name": "Measure_1_4"
+    },
+    "Measure_1_6_dnn": {
+      "input_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_1_6_indicator/to_sparse_input/values:0",
+      "encoding": "combined_embedding",
+      "modality": "numeric",
+      "indices_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_1_6_indicator/to_sparse_input/indices:0",
+      "dense_shape_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_1_6_indicator/to_sparse_input/dense_shape:0",
+      "encoded_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_1_6_indicator/Sum:0",
+      "group_name": "Measure_1_6"
+    },
+    "Measure_1_6_linear": {
+      "input_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_1_6_indicator/to_sparse_input/values:0",
+      "encoding": "combined_embedding",
+      "modality": "numeric",
+      "indices_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_1_6_indicator/to_sparse_input/indices:0",
+      "dense_shape_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_1_6_indicator/to_sparse_input/dense_shape:0",
+      "encoded_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_1_6_indicator/Sum:0",
+      "group_name": "Measure_1_6"
+    },
+    "Measure_3_1_1_dnn": {
+      "input_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_3_1_1_indicator/to_sparse_input/values:0",
+      "encoding": "combined_embedding",
+      "modality": "numeric",
+      "indices_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_3_1_1_indicator/to_sparse_input/indices:0",
+      "dense_shape_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_3_1_1_indicator/to_sparse_input/dense_shape:0",
+      "encoded_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_3_1_1_indicator/Sum:0",
+      "group_name": "Measure_3_1_1"
+    },
+    "Measure_3_1_1_linear": {
+      "input_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_3_1_1_indicator/to_sparse_input/values:0",
+      "encoding": "combined_embedding",
+      "modality": "numeric",
+      "indices_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_3_1_1_indicator/to_sparse_input/indices:0",
+      "dense_shape_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_3_1_1_indicator/to_sparse_input/dense_shape:0",
+      "encoded_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_3_1_1_indicator/Sum:0",
+      "group_name": "Measure_3_1_1"
+    },
+    "Measure_3_1_2_dnn": {
+      "input_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_3_1_2_indicator/to_sparse_input/values:0",
+      "encoding": "combined_embedding",
+      "modality": "numeric",
+      "indices_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_3_1_2_indicator/to_sparse_input/indices:0",
+      "dense_shape_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_3_1_2_indicator/to_sparse_input/dense_shape:0",
+      "encoded_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_3_1_2_indicator/Sum:0",
+      "group_name": "Measure_3_1_2"
+    },
+    "Measure_3_1_2_linear": {
+      "input_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_3_1_2_indicator/to_sparse_input/values:0",
+      "encoding": "combined_embedding",
+      "modality": "numeric",
+      "indices_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_3_1_2_indicator/to_sparse_input/indices:0",
+      "dense_shape_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_3_1_2_indicator/to_sparse_input/dense_shape:0",
+      "encoded_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_3_1_2_indicator/Sum:0",
+      "group_name": "Measure_3_1_2"
+    },
+    "Measure_3_1_3_dnn": {
+      "input_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_3_1_3_indicator/to_sparse_input/values:0",
+      "encoding": "combined_embedding",
+      "modality": "numeric",
+      "indices_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_3_1_3_indicator/to_sparse_input/indices:0",
+      "dense_shape_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_3_1_3_indicator/to_sparse_input/dense_shape:0",
+      "encoded_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_3_1_3_indicator/Sum:0",
+      "group_name": "Measure_3_1_3"
+    },
+    "Measure_3_1_3_linear": {
+      "input_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_3_1_3_indicator/to_sparse_input/values:0",
+      "encoding": "combined_embedding",
+      "modality": "numeric",
+      "indices_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_3_1_3_indicator/to_sparse_input/indices:0",
+      "dense_shape_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_3_1_3_indicator/to_sparse_input/dense_shape:0",
+      "encoded_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_3_1_3_indicator/Sum:0",
+      "group_name": "Measure_3_1_3"
+    },
+    "Measure_3_2_1_dnn": {
+      "input_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_3_2_1_indicator/to_sparse_input/values:0",
+      "encoding": "combined_embedding",
+      "modality": "numeric",
+      "indices_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_3_2_1_indicator/to_sparse_input/indices:0",
+      "dense_shape_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_3_2_1_indicator/to_sparse_input/dense_shape:0",
+      "encoded_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_3_2_1_indicator/Sum:0",
+      "group_name": "Measure_3_2_1"
+    },
+    "Measure_3_2_1_linear": {
+      "input_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_3_2_1_indicator/to_sparse_input/values:0",
+      "encoding": "combined_embedding",
+      "modality": "numeric",
+      "indices_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_3_2_1_indicator/to_sparse_input/indices:0",
+      "dense_shape_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_3_2_1_indicator/to_sparse_input/dense_shape:0",
+      "encoded_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_3_2_1_indicator/Sum:0",
+      "group_name": "Measure_3_2_1"
+    },
+    "Measure_3_2_2_dnn": {
+      "input_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_3_2_2_indicator/to_sparse_input/values:0",
+      "encoding": "combined_embedding",
+      "modality": "numeric",
+      "indices_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_3_2_2_indicator/to_sparse_input/indices:0",
+      "dense_shape_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_3_2_2_indicator/to_sparse_input/dense_shape:0",
+      "encoded_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_3_2_2_indicator/Sum:0",
+      "group_name": "Measure_3_2_2"
+    },
+    "Measure_3_2_2_linear": {
+      "input_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_3_2_2_indicator/to_sparse_input/values:0",
+      "encoding": "combined_embedding",
+      "modality": "numeric",
+      "indices_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_3_2_2_indicator/to_sparse_input/indices:0",
+      "dense_shape_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_3_2_2_indicator/to_sparse_input/dense_shape:0",
+      "encoded_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_3_2_2_indicator/Sum:0",
+      "group_name": "Measure_3_2_2"
+    },
+    "Measure_4_1_1_dnn": {
+      "input_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_4_1_1_indicator/to_sparse_input/values:0",
+      "encoding": "combined_embedding",
+      "modality": "numeric",
+      "indices_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_4_1_1_indicator/to_sparse_input/indices:0",
+      "dense_shape_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_4_1_1_indicator/to_sparse_input/dense_shape:0",
+      "encoded_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_4_1_1_indicator/Sum:0",
+      "group_name": "Measure_4_1_1"
+    },
+    "Measure_4_1_1_linear": {
+      "input_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_4_1_1_indicator/to_sparse_input/values:0",
+      "encoding": "combined_embedding",
+      "modality": "numeric",
+      "indices_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_4_1_1_indicator/to_sparse_input/indices:0",
+      "dense_shape_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_4_1_1_indicator/to_sparse_input/dense_shape:0",
+      "encoded_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_4_1_1_indicator/Sum:0",
+      "group_name": "Measure_4_1_1"
+    },
+    "Measure_4_1_2_dnn": {
+      "input_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_4_1_2_indicator/to_sparse_input/values:0",
+      "encoding": "combined_embedding",
+      "modality": "numeric",
+      "indices_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_4_1_2_indicator/to_sparse_input/indices:0",
+      "dense_shape_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_4_1_2_indicator/to_sparse_input/dense_shape:0",
+      "encoded_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_4_1_2_indicator/Sum:0",
+      "group_name": "Measure_4_1_2"
+    },
+    "Measure_4_1_2_linear": {
+      "input_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_4_1_2_indicator/to_sparse_input/values:0",
+      "encoding": "combined_embedding",
+      "modality": "numeric",
+      "indices_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_4_1_2_indicator/to_sparse_input/indices:0",
+      "dense_shape_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_4_1_2_indicator/to_sparse_input/dense_shape:0",
+      "encoded_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_4_1_2_indicator/Sum:0",
+      "group_name": "Measure_4_1_2"
+    },
+    "Measure_4_2_1_dnn": {
+      "input_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_4_2_1_indicator/to_sparse_input/values:0",
+      "encoding": "combined_embedding",
+      "modality": "numeric",
+      "indices_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_4_2_1_indicator/to_sparse_input/indices:0",
+      "dense_shape_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_4_2_1_indicator/to_sparse_input/dense_shape:0",
+      "encoded_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_4_2_1_indicator/Sum:0",
+      "group_name": "Measure_4_2_1"
+    },
+    "Measure_4_2_1_linear": {
+      "input_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_4_2_1_indicator/to_sparse_input/values:0",
+      "encoding": "combined_embedding",
+      "modality": "numeric",
+      "indices_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_4_2_1_indicator/to_sparse_input/indices:0",
+      "dense_shape_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_4_2_1_indicator/to_sparse_input/dense_shape:0",
+      "encoded_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_4_2_1_indicator/Sum:0",
+      "group_name": "Measure_4_2_1"
+    },
+    "Measure_4_2_2_dnn": {
+      "input_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_4_2_2_indicator/to_sparse_input/values:0",
+      "encoding": "combined_embedding",
+      "modality": "numeric",
+      "indices_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_4_2_2_indicator/to_sparse_input/indices:0",
+      "dense_shape_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_4_2_2_indicator/to_sparse_input/dense_shape:0",
+      "encoded_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_4_2_2_indicator/Sum:0",
+      "group_name": "Measure_4_2_2"
+    },
+    "Measure_4_2_2_linear": {
+      "input_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_4_2_2_indicator/to_sparse_input/values:0",
+      "encoding": "combined_embedding",
+      "modality": "numeric",
+      "indices_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_4_2_2_indicator/to_sparse_input/indices:0",
+      "dense_shape_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_4_2_2_indicator/to_sparse_input/dense_shape:0",
+      "encoded_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_4_2_2_indicator/Sum:0",
+      "group_name": "Measure_4_2_2"
+    },
+    "Measure_4_3_2_dnn": {
+      "input_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_4_3_2_indicator/to_sparse_input/values:0",
+      "encoding": "combined_embedding",
+      "modality": "numeric",
+      "indices_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_4_3_2_indicator/to_sparse_input/indices:0",
+      "dense_shape_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_4_3_2_indicator/to_sparse_input/dense_shape:0",
+      "encoded_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_4_3_2_indicator/Sum:0",
+      "group_name": "Measure_4_3_2"
+    },
+    "Measure_4_3_2_linear": {
+      "input_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_4_3_2_indicator/to_sparse_input/values:0",
+      "encoding": "combined_embedding",
+      "modality": "numeric",
+      "indices_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_4_3_2_indicator/to_sparse_input/indices:0",
+      "dense_shape_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_4_3_2_indicator/to_sparse_input/dense_shape:0",
+      "encoded_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_4_3_2_indicator/Sum:0",
+      "group_name": "Measure_4_3_2"
+    },
+    "Measure_4_3_3_dnn": {
+      "input_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_4_3_3_indicator/to_sparse_input/values:0",
+      "encoding": "combined_embedding",
+      "modality": "numeric",
+      "indices_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_4_3_3_indicator/to_sparse_input/indices:0",
+      "dense_shape_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_4_3_3_indicator/to_sparse_input/dense_shape:0",
+      "encoded_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_4_3_3_indicator/Sum:0",
+      "group_name": "Measure_4_3_3"
+    },
+    "Measure_4_3_3_linear": {
+      "input_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_4_3_3_indicator/to_sparse_input/values:0",
+      "encoding": "combined_embedding",
+      "modality": "numeric",
+      "indices_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_4_3_3_indicator/to_sparse_input/indices:0",
+      "dense_shape_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_4_3_3_indicator/to_sparse_input/dense_shape:0",
+      "encoded_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_4_3_3_indicator/Sum:0",
+      "group_name": "Measure_4_3_3"
+    },
+    "Measure_4_3_4_dnn": {
+      "input_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_4_3_4_indicator/to_sparse_input/values:0",
+      "encoding": "combined_embedding",
+      "modality": "numeric",
+      "indices_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_4_3_4_indicator/to_sparse_input/indices:0",
+      "dense_shape_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_4_3_4_indicator/to_sparse_input/dense_shape:0",
+      "encoded_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_4_3_4_indicator/Sum:0",
+      "group_name": "Measure_4_3_4"
+    },
+    "Measure_4_3_4_linear": {
+      "input_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_4_3_4_indicator/to_sparse_input/values:0",
+      "encoding": "combined_embedding",
+      "modality": "numeric",
+      "indices_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_4_3_4_indicator/to_sparse_input/indices:0",
+      "dense_shape_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_4_3_4_indicator/to_sparse_input/dense_shape:0",
+      "encoded_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_4_3_4_indicator/Sum:0",
+      "group_name": "Measure_4_3_4"
+    },
+    "Measure_4_4_1_dnn": {
+      "input_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_4_4_1_indicator/to_sparse_input/values:0",
+      "encoding": "combined_embedding",
+      "modality": "numeric",
+      "indices_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_4_4_1_indicator/to_sparse_input/indices:0",
+      "dense_shape_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_4_4_1_indicator/to_sparse_input/dense_shape:0",
+      "encoded_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_4_4_1_indicator/Sum:0",
+      "group_name": "Measure_4_4_1"
+    },
+    "Measure_4_4_1_linear": {
+      "input_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_4_4_1_indicator/to_sparse_input/values:0",
+      "encoding": "combined_embedding",
+      "modality": "numeric",
+      "indices_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_4_4_1_indicator/to_sparse_input/indices:0",
+      "dense_shape_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_4_4_1_indicator/to_sparse_input/dense_shape:0",
+      "encoded_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_4_4_1_indicator/Sum:0",
+      "group_name": "Measure_4_4_1"
+    },
+    "Measure_4_4_2_dnn": {
+      "input_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_4_4_2_indicator/to_sparse_input/values:0",
+      "encoding": "combined_embedding",
+      "modality": "numeric",
+      "indices_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_4_4_2_indicator/to_sparse_input/indices:0",
+      "dense_shape_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_4_4_2_indicator/to_sparse_input/dense_shape:0",
+      "encoded_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_4_4_2_indicator/Sum:0",
+      "group_name": "Measure_4_4_2"
+    },
+    "Measure_4_4_2_linear": {
+      "input_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_4_4_2_indicator/to_sparse_input/values:0",
+      "encoding": "combined_embedding",
+      "modality": "numeric",
+      "indices_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_4_4_2_indicator/to_sparse_input/indices:0",
+      "dense_shape_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_4_4_2_indicator/to_sparse_input/dense_shape:0",
+      "encoded_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_4_4_2_indicator/Sum:0",
+      "group_name": "Measure_4_4_2"
+    },
+    "Measure_4_5_1_dnn": {
+      "input_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_4_5_1_indicator/to_sparse_input/values:0",
+      "encoding": "combined_embedding",
+      "modality": "numeric",
+      "indices_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_4_5_1_indicator/to_sparse_input/indices:0",
+      "dense_shape_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_4_5_1_indicator/to_sparse_input/dense_shape:0",
+      "encoded_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_4_5_1_indicator/Sum:0",
+      "group_name": "Measure_4_5_1"
+    },
+    "Measure_4_5_1_linear": {
+      "input_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_4_5_1_indicator/to_sparse_input/values:0",
+      "encoding": "combined_embedding",
+      "modality": "numeric",
+      "indices_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_4_5_1_indicator/to_sparse_input/indices:0",
+      "dense_shape_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_4_5_1_indicator/to_sparse_input/dense_shape:0",
+      "encoded_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_4_5_1_indicator/Sum:0",
+      "group_name": "Measure_4_5_1"
+    },
+    "Measure_4_5_2_dnn": {
+      "input_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_4_5_2_indicator/to_sparse_input/values:0",
+      "encoding": "combined_embedding",
+      "modality": "numeric",
+      "indices_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_4_5_2_indicator/to_sparse_input/indices:0",
+      "dense_shape_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_4_5_2_indicator/to_sparse_input/dense_shape:0",
+      "encoded_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_4_5_2_indicator/Sum:0",
+      "group_name": "Measure_4_5_2"
+    },
+    "Measure_4_5_2_linear": {
+      "input_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_4_5_2_indicator/to_sparse_input/values:0",
+      "encoding": "combined_embedding",
+      "modality": "numeric",
+      "indices_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_4_5_2_indicator/to_sparse_input/indices:0",
+      "dense_shape_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_4_5_2_indicator/to_sparse_input/dense_shape:0",
+      "encoded_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_4_5_2_indicator/Sum:0",
+      "group_name": "Measure_4_5_2"
+    },
+    "Measure_4_5_3_dnn": {
+      "input_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_4_5_3_indicator/to_sparse_input/values:0",
+      "encoding": "combined_embedding",
+      "modality": "numeric",
+      "indices_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_4_5_3_indicator/to_sparse_input/indices:0",
+      "dense_shape_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_4_5_3_indicator/to_sparse_input/dense_shape:0",
+      "encoded_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_4_5_3_indicator/Sum:0",
+      "group_name": "Measure_4_5_3"
+    },
+    "Measure_4_5_3_linear": {
+      "input_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_4_5_3_indicator/to_sparse_input/values:0",
+      "encoding": "combined_embedding",
+      "modality": "numeric",
+      "indices_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_4_5_3_indicator/to_sparse_input/indices:0",
+      "dense_shape_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_4_5_3_indicator/to_sparse_input/dense_shape:0",
+      "encoded_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_4_5_3_indicator/Sum:0",
+      "group_name": "Measure_4_5_3"
+    },
+    "Measure_5_1_dnn": {
+      "input_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_5_1_indicator/to_sparse_input/values:0",
+      "encoding": "combined_embedding",
+      "modality": "numeric",
+      "indices_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_5_1_indicator/to_sparse_input/indices:0",
+      "dense_shape_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_5_1_indicator/to_sparse_input/dense_shape:0",
+      "encoded_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_5_1_indicator/Sum:0",
+      "group_name": "Measure_5_1"
+    },
+    "Measure_5_1_linear": {
+      "input_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_5_1_indicator/to_sparse_input/values:0",
+      "encoding": "combined_embedding",
+      "modality": "numeric",
+      "indices_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_5_1_indicator/to_sparse_input/indices:0",
+      "dense_shape_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_5_1_indicator/to_sparse_input/dense_shape:0",
+      "encoded_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_5_1_indicator/Sum:0",
+      "group_name": "Measure_5_1"
+    },
+    "Measure_5_3_dnn": {
+      "input_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_5_3_indicator/to_sparse_input/values:0",
+      "encoding": "combined_embedding",
+      "modality": "numeric",
+      "indices_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_5_3_indicator/to_sparse_input/indices:0",
+      "dense_shape_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_5_3_indicator/to_sparse_input/dense_shape:0",
+      "encoded_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_5_3_indicator/Sum:0",
+      "group_name": "Measure_5_3"
+    },
+    "Measure_5_3_linear": {
+      "input_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_5_3_indicator/to_sparse_input/values:0",
+      "encoding": "combined_embedding",
+      "modality": "numeric",
+      "indices_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_5_3_indicator/to_sparse_input/indices:0",
+      "dense_shape_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_5_3_indicator/to_sparse_input/dense_shape:0",
+      "encoded_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_5_3_indicator/Sum:0",
+      "group_name": "Measure_5_3"
+    },
+    "Measure_5_5_dnn": {
+      "input_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_5_5_indicator/to_sparse_input/values:0",
+      "encoding": "combined_embedding",
+      "modality": "numeric",
+      "indices_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_5_5_indicator/to_sparse_input/indices:0",
+      "dense_shape_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_5_5_indicator/to_sparse_input/dense_shape:0",
+      "encoded_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_5_5_indicator/Sum:0",
+      "group_name": "Measure_5_5"
+    },
+    "Measure_5_5_linear": {
+      "input_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_5_5_indicator/to_sparse_input/values:0",
+      "encoding": "combined_embedding",
+      "modality": "numeric",
+      "indices_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_5_5_indicator/to_sparse_input/indices:0",
+      "dense_shape_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_5_5_indicator/to_sparse_input/dense_shape:0",
+      "encoded_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_5_5_indicator/Sum:0",
+      "group_name": "Measure_5_5"
+    },
+    "Measure_5_7_dnn": {
+      "input_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_5_7_indicator/to_sparse_input/values:0",
+      "encoding": "combined_embedding",
+      "modality": "numeric",
+      "indices_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_5_7_indicator/to_sparse_input/indices:0",
+      "dense_shape_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_5_7_indicator/to_sparse_input/dense_shape:0",
+      "encoded_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_5_7_indicator/Sum:0",
+      "group_name": "Measure_5_7"
+    },
+    "Measure_5_7_linear": {
+      "input_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_5_7_indicator/to_sparse_input/values:0",
+      "encoding": "combined_embedding",
+      "modality": "numeric",
+      "indices_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_5_7_indicator/to_sparse_input/indices:0",
+      "dense_shape_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_5_7_indicator/to_sparse_input/dense_shape:0",
+      "encoded_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_5_7_indicator/Sum:0",
+      "group_name": "Measure_5_7"
+    },
+    "Measure_5_8_dnn": {
+      "input_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_5_8_indicator/to_sparse_input/values:0",
+      "encoding": "combined_embedding",
+      "modality": "numeric",
+      "indices_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_5_8_indicator/to_sparse_input/indices:0",
+      "dense_shape_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_5_8_indicator/to_sparse_input/dense_shape:0",
+      "encoded_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_5_8_indicator/Sum:0",
+      "group_name": "Measure_5_8"
+    },
+    "Measure_5_8_linear": {
+      "input_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_5_8_indicator/to_sparse_input/values:0",
+      "encoding": "combined_embedding",
+      "modality": "numeric",
+      "indices_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_5_8_indicator/to_sparse_input/indices:0",
+      "dense_shape_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_5_8_indicator/to_sparse_input/dense_shape:0",
+      "encoded_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_5_8_indicator/Sum:0",
+      "group_name": "Measure_5_8"
+    },
+    "Measure_5_9_dnn": {
+      "input_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_5_9_indicator/to_sparse_input/values:0",
+      "encoding": "combined_embedding",
+      "modality": "numeric",
+      "indices_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_5_9_indicator/to_sparse_input/indices:0",
+      "dense_shape_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_5_9_indicator/to_sparse_input/dense_shape:0",
+      "encoded_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_5_9_indicator/Sum:0",
+      "group_name": "Measure_5_9"
+    },
+    "Measure_5_9_linear": {
+      "input_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_5_9_indicator/to_sparse_input/values:0",
+      "encoding": "combined_embedding",
+      "modality": "numeric",
+      "indices_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_5_9_indicator/to_sparse_input/indices:0",
+      "dense_shape_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_5_9_indicator/to_sparse_input/dense_shape:0",
+      "encoded_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_5_9_indicator/Sum:0",
+      "group_name": "Measure_5_9"
+    },
+    "Measure_6_2_dnn": {
+      "input_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_6_2_indicator/to_sparse_input/values:0",
+      "encoding": "combined_embedding",
+      "modality": "numeric",
+      "indices_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_6_2_indicator/to_sparse_input/indices:0",
+      "dense_shape_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_6_2_indicator/to_sparse_input/dense_shape:0",
+      "encoded_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_6_2_indicator/Sum:0",
+      "group_name": "Measure_6_2"
+    },
+    "Measure_6_2_linear": {
+      "input_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_6_2_indicator/to_sparse_input/values:0",
+      "encoding": "combined_embedding",
+      "modality": "numeric",
+      "indices_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_6_2_indicator/to_sparse_input/indices:0",
+      "dense_shape_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_6_2_indicator/to_sparse_input/dense_shape:0",
+      "encoded_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_6_2_indicator/Sum:0",
+      "group_name": "Measure_6_2"
+    },
+    "Measure_7_2_dnn": {
+      "input_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_7_2_indicator/to_sparse_input/values:0",
+      "encoding": "combined_embedding",
+      "modality": "numeric",
+      "indices_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_7_2_indicator/to_sparse_input/indices:0",
+      "dense_shape_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_7_2_indicator/to_sparse_input/dense_shape:0",
+      "encoded_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_7_2_indicator/Sum:0",
+      "group_name": "Measure_7_2"
+    },
+    "Measure_7_2_linear": {
+      "input_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_7_2_indicator/to_sparse_input/values:0",
+      "encoding": "combined_embedding",
+      "modality": "numeric",
+      "indices_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_7_2_indicator/to_sparse_input/indices:0",
+      "dense_shape_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_7_2_indicator/to_sparse_input/dense_shape:0",
+      "encoded_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_7_2_indicator/Sum:0",
+      "group_name": "Measure_7_2"
+    },
+    "Measure_8_1_dnn": {
+      "input_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_8_1_indicator/to_sparse_input/values:0",
+      "encoding": "combined_embedding",
+      "modality": "numeric",
+      "indices_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_8_1_indicator/to_sparse_input/indices:0",
+      "dense_shape_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_8_1_indicator/to_sparse_input/dense_shape:0",
+      "encoded_tensor_name": "dnn/input_from_feature_columns/input_layer/Measure_8_1_indicator/Sum:0",
+      "group_name": "Measure_8_1"
+    },
+    "Measure_8_1_linear": {
+      "input_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_8_1_indicator/to_sparse_input/values:0",
+      "encoding": "combined_embedding",
+      "modality": "numeric",
+      "indices_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_8_1_indicator/to_sparse_input/indices:0",
+      "dense_shape_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_8_1_indicator/to_sparse_input/dense_shape:0",
+      "encoded_tensor_name": "linear/linear_model/linear_model/linear_model/Measure_8_1_indicator/Sum:0",
+      "group_name": "Measure_8_1"
+    },
+    "North_past14": {
+      "input_tensor_name": "dnn/input_from_feature_columns/input_layer/North_past14/Cast:0",
+      "encoding": "identity",
+      "modality": "numeric"
+    },
+    "Rt_dnn": {
+      "input_tensor_name": "dnn/input_from_feature_columns/input_layer/Rt_embedding/to_sparse_input/values:0",
+      "encoding": "combined_embedding",
+      "modality": "numeric",
+      "indices_tensor_name": "dnn/input_from_feature_columns/input_layer/Rt_embedding/to_sparse_input/indices:0",
+      "dense_shape_tensor_name": "dnn/input_from_feature_columns/input_layer/Rt_embedding/to_sparse_input/dense_shape:0",
+      "encoded_tensor_name": "dnn/input_from_feature_columns/input_layer/Rt_embedding/Rt_embedding_weights/Reshape_2:0",
+      "group_name": "Rt"
+    },
+    "Rt_linear": {
+      "input_tensor_name": "linear/linear_model/linear_model/linear_model/Rt_indicator/to_sparse_input/values:0",
+      "encoding": "combined_embedding",
+      "modality": "numeric",
+      "indices_tensor_name": "linear/linear_model/linear_model/linear_model/Rt_indicator/to_sparse_input/indices:0",
+      "dense_shape_tensor_name": "linear/linear_model/linear_model/linear_model/Rt_indicator/to_sparse_input/dense_shape:0",
+      "encoded_tensor_name": "linear/linear_model/linear_model/linear_model/Rt_indicator/Sum:0",
+      "group_name": "Rt"
+    },
+    "Sai_Kung_past14": {
+      "input_tensor_name": "dnn/input_from_feature_columns/input_layer/Sai_Kung_past14/Cast:0",
+      "encoding": "identity",
+      "modality": "numeric"
+    },
+    "Sha_Tin_past14": {
+      "input_tensor_name": "dnn/input_from_feature_columns/input_layer/Sha_Tin_past14/Cast:0",
+      "encoding": "identity",
+      "modality": "numeric"
+    },
+    "Sham_Shui_Po_past14": {
+      "input_tensor_name": "dnn/input_from_feature_columns/input_layer/Sham_Shui_Po_past14/Cast:0",
+      "encoding": "identity",
+      "modality": "numeric"
+    },
+    "Southern_past14": {
+      "input_tensor_name": "dnn/input_from_feature_columns/input_layer/Southern_past14/Cast:0",
+      "encoding": "identity",
+      "modality": "numeric"
+    },
+    "Tai_Po_past14": {
+      "input_tensor_name": "dnn/input_from_feature_columns/input_layer/Tai_Po_past14/Cast:0",
+      "encoding": "identity",
+      "modality": "numeric"
+    },
+    "Tsuen_Wan_past14": {
+      "input_tensor_name": "dnn/input_from_feature_columns/input_layer/Tsuen_Wan_past14/Cast:0",
+      "encoding": "identity",
+      "modality": "numeric"
+    },
+    "Tuen_Mun_past14": {
+      "input_tensor_name": "dnn/input_from_feature_columns/input_layer/Tuen_Mun_past14/Cast:0",
+      "encoding": "identity",
+      "modality": "numeric"
+    },
+    "Wan_Chai_past14": {
+      "input_tensor_name": "dnn/input_from_feature_columns/input_layer/Wan_Chai_past14/Cast:0",
+      "encoding": "identity",
+      "modality": "numeric"
+    },
+    "Wong_Tai_Sin_past14": {
+      "input_tensor_name": "dnn/input_from_feature_columns/input_layer/Wong_Tai_Sin_past14/Cast:0",
+      "encoding": "identity",
+      "modality": "numeric"
+    },
+    "World_case_14": {
+      "input_tensor_name": "dnn/input_from_feature_columns/input_layer/World_case_14/Cast:0",
+      "encoding": "identity",
+      "modality": "numeric"
+    },
+    "Yau_Tsim_Mong_past14": {
+      "input_tensor_name": "dnn/input_from_feature_columns/input_layer/Yau_Tsim_Mong_past14/Cast:0",
+      "encoding": "identity",
+      "modality": "numeric"
+    },
+    "Yuen_Long_past14": {
+      "input_tensor_name": "dnn/input_from_feature_columns/input_layer/Yuen_Long_past14/Cast:0",
+      "encoding": "identity",
+      "modality": "numeric"
+    },
+    "people_vaccinated": {
+      "input_tensor_name": "dnn/input_from_feature_columns/input_layer/people_vaccinated/Cast:0",
+      "encoding": "identity",
+      "modality": "numeric"
+    },
+    "total_boosters": {
+      "input_tensor_name": "dnn/input_from_feature_columns/input_layer/total_boosters/Cast:0",
+      "encoding": "identity",
+      "modality": "numeric"
+    }
+  },
+  "framework": "Tensorflow",
+  "tags": [
+    "explainable_ai_sdk"
+  ]
+}

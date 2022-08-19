@@ -1,0 +1,168 @@
+{
+   "feature_names" : [
+      "North_past14",
+      "Tai_Po_past14",
+      "Eastern_past14",
+      "Islands_past14",
+      "Sha_Tin_past14",
+      "Sai_Kung_past14",
+      "Southern_past14",
+      "Tuen_Mun_past14",
+      "Wan_Chai_past14",
+      "Kwun_Tong_past14",
+      "Tsuen_Wan_past14",
+      "Yuen_Long_past14",
+      "Kwai_Tsing_past14",
+      "Kowloon_City_past14",
+      "Sham_Shui_Po_past14",
+      "Wong_Tai_Sin_past14",
+      "Yau_Tsim_Mong_past14",
+      "Central_Western_past14",
+      "Measure_1_4",
+      "Measure_5_1",
+      "Measure_5_3",
+      "Measure_5_5",
+      "Measure_5_7",
+      "Measure_6_2",
+      "Measure_7_2",
+      "Measure_8_1",
+      "Measure_3_1_1",
+      "Measure_3_1_2",
+      "Measure_3_1_3",
+      "Measure_3_2_1",
+      "Measure_4_1_1",
+      "Measure_4_1_2",
+      "Measure_4_2_1",
+      "Measure_4_2_2",
+      "Measure_4_3_2",
+      "Measure_4_3_3",
+      "Measure_4_3_4",
+      "Measure_4_4_1",
+      "Measure_4_4_2",
+      "Measure_4_5_1",
+      "Measure_4_5_2",
+      "Measure_4_5_3",
+      "Measure_1_6",
+      "Measure_5_8",
+      "Measure_5_9",
+      "Measure_3_2_2",
+      "people_vaccinated",
+      "total_boosters",
+      "Rt",
+      "World_case_14",
+      "Confirmed_case_past14"
+   ],
+   "features" : {
+      "Central_Western_past14" : {},
+      "Confirmed_case_past14" : {},
+      "Eastern_past14" : {},
+      "Islands_past14" : {},
+      "Kowloon_City_past14" : {},
+      "Kwai_Tsing_past14" : {},
+      "Kwun_Tong_past14" : {},
+      "Measure_1_4" : {
+         "encode_type" : "ohe"
+      },
+      "Measure_1_6" : {
+         "encode_type" : "ohe"
+      },
+      "Measure_3_1_1" : {
+         "encode_type" : "ohe"
+      },
+      "Measure_3_1_2" : {
+         "encode_type" : "ohe"
+      },
+      "Measure_3_1_3" : {
+         "encode_type" : "ohe"
+      },
+      "Measure_3_2_1" : {
+         "encode_type" : "ohe"
+      },
+      "Measure_3_2_2" : {
+         "encode_type" : "ohe"
+      },
+      "Measure_4_1_1" : {
+         "encode_type" : "ohe"
+      },
+      "Measure_4_1_2" : {
+         "encode_type" : "ohe"
+      },
+      "Measure_4_2_1" : {
+         "encode_type" : "ohe"
+      },
+      "Measure_4_2_2" : {
+         "encode_type" : "ohe"
+      },
+      "Measure_4_3_2" : {
+         "encode_type" : "ohe"
+      },
+      "Measure_4_3_3" : {
+         "encode_type" : "ohe"
+      },
+      "Measure_4_3_4" : {
+         "encode_type" : "ohe"
+      },
+      "Measure_4_4_1" : {
+         "encode_type" : "ohe"
+      },
+      "Measure_4_4_2" : {
+         "encode_type" : "ohe"
+      },
+      "Measure_4_5_1" : {
+         "encode_type" : "ohe"
+      },
+      "Measure_4_5_2" : {
+         "encode_type" : "ohe"
+      },
+      "Measure_4_5_3" : {
+         "encode_type" : "ohe"
+      },
+      "Measure_5_1" : {
+         "encode_type" : "ohe"
+      },
+      "Measure_5_3" : {
+         "encode_type" : "ohe"
+      },
+      "Measure_5_5" : {
+         "encode_type" : "ohe"
+      },
+      "Measure_5_7" : {
+         "encode_type" : "ohe"
+      },
+      "Measure_5_8" : {
+         "encode_type" : "ohe"
+      },
+      "Measure_5_9" : {
+         "encode_type" : "ohe"
+      },
+      "Measure_6_2" : {
+         "encode_type" : "ohe"
+      },
+      "Measure_7_2" : {
+         "encode_type" : "ohe"
+      },
+      "Measure_8_1" : {
+         "encode_type" : "ohe"
+      },
+      "North_past14" : {},
+      "Rt" : {
+         "encode_type" : "ohe"
+      },
+      "Sai_Kung_past14" : {},
+      "Sha_Tin_past14" : {},
+      "Sham_Shui_Po_past14" : {},
+      "Southern_past14" : {},
+      "Tai_Po_past14" : {},
+      "Tsuen_Wan_past14" : {},
+      "Tuen_Mun_past14" : {},
+      "Wan_Chai_past14" : {},
+      "Wong_Tai_Sin_past14" : {},
+      "World_case_14" : {},
+      "Yau_Tsim_Mong_past14" : {},
+      "Yuen_Long_past14" : {},
+      "people_vaccinated" : {},
+      "total_boosters" : {}
+   },
+   "label_col" : "Kwai_Tsing_next14",
+   "model_type" : "boosted_tree_regressor"
+}
